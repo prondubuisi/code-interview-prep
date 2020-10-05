@@ -7,7 +7,7 @@
 # add  characters to dictionary as you loop
 # if an encountered char is already in dict 
 # get length of dict, store as longest
-# continue, starting from start position + len(dict)
+# continue, starting from start position + 1
 # continue if start position is < len input
 
 class Solution:
