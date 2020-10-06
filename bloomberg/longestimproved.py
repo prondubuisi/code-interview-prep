@@ -16,7 +16,6 @@ class Solution:
         store  = []
 
         while( j < len(s)):
-            print(j)
             
             if(s[j] in store ):
                 i += 1
