@@ -1,13 +1,14 @@
-# class Solution:
-# Algorithm
-# Have three pointers i, left and right
-# loop through array using a length of array length - 2
-# sum i, left, right at every loop
-# if sum = 0
-# add to set
-# then increment left and decrease right
-# if sum is > 0 decrease left
-# if sum is < 0 increase right
+"""
+Algorithm
+Have three pointers i, left and right
+loop through array using a length of array length - 2
+sum i, left, right at every loop
+if sum = 0
+add to set
+then increment left and decrease right
+if sum is > 0 decrease left
+if sum is < 0 increase right
+"""
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         

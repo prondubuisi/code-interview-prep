@@ -3,8 +3,8 @@
 #returns 3 len(abc)
 # loop through string
 # keep track of start position
-# intialize an empty dictionary 
-# add  characters to dictionary as you loop
+# intialize an empty list 
+# add  characters to list as you loop
 # if an encountered char is already in dict 
 # get length of dict, store as longest
 # continue, starting from start position + 1
